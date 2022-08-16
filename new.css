@@ -1,0 +1,176 @@
+body{
+  background: url(one.jpg);
+}
+
+.open-btn{
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  /* border: 2px solid #fff; */
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.btn{
+  margin-right: 20px;
+  font-size:1.8rem;
+  padding: 10px 30px;
+  border: 2px #fff solid;
+  border-radius: 10px;
+  box-shadow: 0 0 3px #fff;
+  background: transparent;
+  color:#fff;
+  transition: .5s;
+  font-weight: 600;
+}
+
+.btn:hover{
+  background-color: white;
+  color:black;
+}
+
+
+.login-container{
+  display: none;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width:550px;
+  padding-left: 60px;
+  text-align: center;
+  background:rgb(4, 45, 66);
+  border-radius: 10px;
+  box-shadow: 0 0 3px #fff;
+  color:#fff;
+  font-weight: 600;
+  animation-name: animatemodel;
+  animation-duration: 0.4s;
+  background-color: (0,0,0,0.5);
+}
+.signup-container{
+  display: none;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width:550px;
+  padding-left: 60px;
+  text-align: center;
+  background:rgb(4, 45, 66);
+  border-radius: 10px;
+  box-shadow: 0 0 3px #fff;
+  color:#fff;
+  animation-name: animatemodel;
+  animation-duration: 0.4s; 
+  background-color: (0,0,0,0.5 );
+  
+}
+
+.ipt{
+  display:block;
+  margin:22px;
+  padding:10px;
+  font-size:2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 3px #fff;
+  background: transparent;
+  color:#fff;
+  transition: .5s;
+  font-weight: 600;
+  
+}
+.ipt2{
+  display:block;
+  margin:10px;
+  padding:10px;
+  font-size:2rem;
+  border-radius: 10px;
+  /* box-shadow: 0 0 3px #fff; */
+  background: transparent;
+  color:#fff;
+  transition: .5s;
+  font-weight: 600;
+}
+.ipt3{
+  display:block;
+  margin:22px;
+  padding:10px;
+  font-size:2rem;
+  border-radius: 10px;
+  background: transparent;
+  color:#fff;
+  transition: .5s;
+  font-weight: 600;
+}
+
+
+.head{
+  color:#fff;
+  font-size: 2rem;
+  margin-left:120px;
+}
+
+
+.close{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  padding: 10px;
+  background: transparent;
+  margin-left: 150px;
+  margin-bottom: 3px;
+  color:red;
+  font-size: 2rem;
+}
+
+.btnR{
+  margin-right: 20px;
+  font-size:1.8rem;
+  padding: 10px 30px;
+  border: 2px #fff solid;
+  border-radius: 10px;
+  box-shadow: 0 0 3px #fff;
+  background: transparent;
+  color:#fff;
+  transition: .5s;
+  font-weight: 600;
+  margin-right: 40px;
+}
+.btnR:hover{
+  background-color: rgb(209, 43, 43);
+  color: white;
+}
+.btnS:hover{
+  background-color: rgb(23, 109, 28);
+  color: white;
+}
+.btnS{
+  margin-right: 20px;
+  font-size:1.8rem;
+  padding: 10px 30px;
+  border: 2px #fff solid;
+  border-radius: 10px;
+  box-shadow: 0 0 3px #fff;
+  background: transparent;
+  color:#fff;
+  transition: .5s;
+  font-weight: 600;
+
+}
+
+@keyframes animatemodel {
+  from{
+    top:-300px;
+    opacity: 0;
+  }
+  to{
+    top:50%;
+    opacity: 1;
+  }
+}
